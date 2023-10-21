@@ -1,21 +1,98 @@
 ---
-import Layout from "../layouts/Layout.astro"
-import MaxWidthWrapper from '../components/MaxWidthWrapper.astro'
+import Layout from "../layouts/Layout.astro";
+import MaxWidthWrapper from "../components/MaxWidthWrapper.astro";
 ---
 
 <Layout>
-	<MaxWidthWrapper>
-		<div class="min-h-[calc(100vh-14rem)] flex flex-col justify-center">
-			<div class="text-xl sm:text-3xl lg:text-5xl">
-				<h1 class="text-accent-200 font-bold">Word by Word, Create Your Reality</h1>
-				<div class="flex">
-					<h1 class="text-accent-200 font-bold">Play the Ultimate </h1>
-					<h1 class="text-accent-500 font-bold ml-3">Story Game!</h1>
-				</div>
-				<div class="pt-5 text-text-100">
-					<a href="/browse-stories" class="px-8 py-3 font-semibold border-2 border-none border-black rounded bg-accent-500 text-sm lg:text-lg text-center">Browse Stories</a>
-				</div>
-			</div>
-		</div>
-	</MaxWidthWrapper>
+  <MaxWidthWrapper>
+    <div class="min-h-[calc(100vh-14rem)] flex flex-col justify-center gap-10">
+      <div class="text-xl sm:text-3xl lg:text-5xl">
+        <h1 class="text-accent-200 font-bold">
+          Word by Word, Create Your Reality
+        </h1>
+        <div class="flex">
+          <h1 class="text-accent-200 font-bold">Play the Ultimate</h1>
+          <h1 class="text-accent-500 font-bold ml-3">Story Game!</h1>
+        </div>
+        <div class="pt-5 text-text-100">
+          <a
+            href="/browse-stories"
+            class="px-8 py-3 font-semibold border-2 border-none border-black rounded bg-accent-500 text-sm lg:text-lg text-center"
+            >Browse Stories</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-8">	
+      <h1 class="text-accent-500 font-bold text-xl sm:text-3xl lg:text-5xl">
+        Featured Games
+      </h1>
+      <div class="flex flex-row items-center justify-start gap-10">
+        <div
+          class="max-w-xs bg-background-200 border border-background-500 rounded-lg shadow"
+        >
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-text-900">
+                Mystery Game!
+              </h5>
+            </a>
+            <p class="mb-3 font-normal tracking-tight text-text-700">
+              This is meant to be the description of the game we will put here!
+            </p>
+            <a href="#">
+              <img
+                class="rounded-lg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-FIe_176MW_sLqpGYSWM19BY4TrxMjGdlUA&usqp=CAU"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="max-w-xs bg-background-200 border border-background-500 rounded-lg shadow"
+        >
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-text-900">
+                Mystery Game!
+              </h5>
+            </a>
+            <p class="mb-3 font-normal tracking-tight text-text-700">
+              This is meant to be the description of the game we will put here!
+            </p>
+            <a href="#">
+              <img
+                class="rounded-lg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-FIe_176MW_sLqpGYSWM19BY4TrxMjGdlUA&usqp=CAU"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="max-w-xs bg-background-200 border border-background-500 rounded-lg shadow"
+        >
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-text-900">
+                Mystery Game!
+              </h5>
+            </a>
+            <p class="mb-3 font-normal tracking-tight text-text-700">
+              This is meant to be the description of the game we will put here!
+            </p>
+            <a href="#">
+              <img
+                class="rounded-lg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-FIe_176MW_sLqpGYSWM19BY4TrxMjGdlUA&usqp=CAU"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </MaxWidthWrapper>
 </Layout>
